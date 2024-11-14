@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "KFC Karpinka",
+    "address": "Karpinka 123",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "name": "Oasis Tunguch",
+    "address": "Ankara 1/29",
+    "rating": 5
+  }
+]

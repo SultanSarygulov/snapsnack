@@ -6,11 +6,11 @@ public class Order {
     private Long id;
     private Long userId;
     private Long restaurantId;
-    private List<MenuItem> orderList;
+    private List<Long> orderList;
 
     public Order() {}
 
-    public Order(Long id, Long userId, Long restaurantId, List<MenuItem> orderList) {
+    public Order(Long id, Long userId, Long restaurantId, List<Long> orderList) {
         this.id = id;
         this.userId = userId;
         this.restaurantId = restaurantId;
@@ -26,6 +26,6 @@ public class Order {
     public Long getRestaurantId() { return restaurantId; }
     public void setRestaurantId(Long restaurantId) { this.restaurantId = restaurantId; }
 
-    public List<MenuItem> getOrderList() { return orderList; }
-    public void setOrderList(List<MenuItem> rating) { this.orderList = orderList; }
+    public List<Long> getOrderList() { return orderList; }
+    public void setOrderList(List<Long> orderList) { this.orderList = orderList; }
 }

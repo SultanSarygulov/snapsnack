@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Kentucky Fried Chicken",
+    "price": 400,
+    "restaurantId": 1
+  },
+  {
+    "id": 2,
+    "name": "Chicken Burger",
+    "price": 200,
+    "restaurantId": 1
+  },
+  {
+    "id": 3,
+    "name": "Crispy Shawarma",
+    "price": 220,
+    "restaurantId": 2
+  }
+]
